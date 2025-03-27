@@ -1,2 +1,1 @@
-https://sergey3797.github.io/zakrivayuschiy-teg-f
-https://github.com/username/zakrivayuschiy-teg-f
+https://github.com/Sergey3797/zakrivayuschiy-teg-f

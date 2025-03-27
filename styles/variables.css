@@ -6,6 +6,7 @@
   --title-text-weight: 700;
   --content-width: clamp(23.438rem, 42.484vw + 13.48rem, 43.75rem);
   --margin-auto: 0 auto;
+  --content-width-save: clamp(19.125rem, 3.791vw + 18.237rem, 20.938rem);
   --bg-color: #fff;
   --bg-image: repeating-linear-gradient(
     to right,

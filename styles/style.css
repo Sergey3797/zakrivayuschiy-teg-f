@@ -24,7 +24,7 @@
   margin: var( --margin-auto);
 }
 
-.header{
+.header {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -148,7 +148,7 @@
   fill: var(--fill-core);
 }
 
-.like-icon:hover .main-body{
+.like-icon:hover .main-body {
   fill: var(--fill-contour);
   transition: 0.3s fill 0.05s;
 } 
@@ -157,7 +157,7 @@
   opacity: 0;
 }
 
-.like-icon.is-liked  {
+.like-icon.is-liked {
   animation: like 0.3s ease-in 0.1s 1;
 }
 
@@ -165,7 +165,7 @@
   animation: sparks 0.3s ease-in 0.3s 1;
 }
 
-.like-icon:active .core{
+.like-icon:active .core {
   fill: var(--fill-main-body);
   transition: 0.3s;
 }
@@ -259,7 +259,7 @@
   mix-blend-mode: difference;
 }
 
-.button-open{
+.button-open {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -272,7 +272,6 @@
   position: relative;
   overflow: hidden;
   border: 2px solid #000000;
-  transition: 0.5s ease-in-out;
 }
 
 .button-open:focus {
@@ -374,7 +373,7 @@
   filter: blur(16px) opacity(50%);
 }
 
-@media (width <= 375px){
+@media (width <= 375px) {
   .card__button-save {
     padding-inline: 34px;
     display: flex;
@@ -390,7 +389,7 @@
   .floppy {
     block-size: 21px;
   }
-  .modal__window{
+  .modal__window {
     max-inline-size: 353px;
     padding-block: 30px;
     padding-inline: 25px;

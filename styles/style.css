@@ -10,7 +10,7 @@
 
 */
 .page {
-  font-family:var( --main-font), sans-serif;
+  font-family: var(--main-font), sans-serif;
   font-variation-settings: "wght" var(--main-text-weight);
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -20,8 +20,8 @@
 }
 
 .module-size {
-  width:var(--content-width);
-  margin:var( --margin-auto);
+  width: var(--content-width);
+  margin: var(--margin-auto);
 }
 
 .header {
@@ -33,11 +33,11 @@
   margin-block: 100px;
   border: 2px solid #000;
   gap: 20px;
-  background-color:var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .logo {
-  font-family:var(--accent-font), sans-serif;
+  font-family: var(--accent-font), sans-serif;
   text-transform: uppercase;
 }
 
@@ -60,11 +60,11 @@
   display: flex;
   flex-direction: column;
   border: 2px solid #000;
-  background-color:var(--bg-color);
+  background-color: var(--bg-color);
 }
 
 .article__title {
-  font-family:var(--main-font),sans-serif;
+  font-family: var(--main-font),sans-serif;
   font-variation-settings: "wght" var(--title-text-weight);
   font-size: 18px;
   padding-inline: 10px;
@@ -82,7 +82,7 @@
   position: absolute;
   padding-block: 25px;
   padding-inline: clamp(0.813rem, 1.307vw + 0.506rem, 1.438rem);
-  font-family:var(--accent-font),sans-serif;
+  font-family: var(--accent-font),sans-serif;
   font-weight: 400;
   font-size: 14px;  
   text-transform: uppercase;
@@ -118,8 +118,8 @@
 }
 
 .article__text {
-  font-family:var(--main-font), sans-serif;
-  font-weight:var(--main-text-weight);
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--main-text-weight);
   font-size: 18px;
 }
 
@@ -141,21 +141,21 @@
 
 .like-icon .core {
   transition: 0.03s fill;
-  fill:var(--fill-core);
+  fill: var(--fill-core);
 }
 
 .like-icon:hover .core {
-  fill:var(--fill-contour);
+  fill: var(--fill-contour);
   transition: 0.3s;
 }
 
 .like-icon .main-body {
   transition: 0.3s fill ;
-  fill:var(--fill-core);
+  fill: var(--fill-core);
 }
 
 .like-icon:hover .main-body {
-  fill:var(--fill-contour);
+  fill: var(--fill-contour);
   transition: 0.3s fill 0.05s;
 } 
 
@@ -172,32 +172,32 @@
 }
 
 .like-icon:active .core {
-  fill:var(--fill-main-body);
+  fill: var(--fill-main-body);
   transition: 0.3s;
 }
 
 .like-icon:active .main-body {
-  fill:var(--fill-main-body);
+  fill: var(--fill-main-body);
   transition: 0.3s fill 0.05s;
 }
 
 .like-icon.is-liked .core {
-  fill:var(--fill-main-body);
+  fill: var(--fill-main-body);
   transition: 0.3s;
 }
 
 .like-icon.is-liked .main-body {
-  fill:var(--fill-main-body);
+  fill: var(--fill-main-body);
   transition: 0.3s fill 0.05s;
 }
 
 .like-icon.is-liked .contour {
-  fill:var(--fill-main-body);
+  fill: var(--fill-main-body);
   transition: 0.3s fill 0.06s;
 }
 
 .contour {
-  fill:var(--fill-contour);
+  fill: var(--fill-contour);
   transition: 0.1s fill;
 }
 
@@ -243,7 +243,7 @@
   background: #000;
   transition: 0.5s ease-in-out;
   transform: translateX(-100%);
-  color:var(--color-light);
+  color: var(--color-light);
   z-index: 1;
 }
 
@@ -256,17 +256,17 @@
 }
 
 .button__text {
-  font-family:var(--accent-font), sans-serif;
+  font-family: var(--accent-font), sans-serif;
   font-size: 14px;
-  color:var(--color-light);
+  color: var(--color-light);
   position: relative;
   z-index: 2;
   mix-blend-mode: difference;
 }
 
 .module-size-save {
-  width:var(--content-width-save);
-  margin:var( --margin-auto);
+  width: var(--content-width-save);
+  margin: var(--margin-auto);
 }
 
 .button-open {
@@ -283,7 +283,6 @@
   overflow: hidden;
   border: 2px solid #000000;
   margin-block-end: 100px;
-  --content-width: clamp(19.125rem, 3.791vw + 18.237rem, 20.938rem);
 }
 
 .floppy {
@@ -308,7 +307,7 @@
 }
 
 .modal__text-floppy {
-  font-family:var(--accent-font),sans-serif;
+  font-family: var(--accent-font),sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
@@ -316,7 +315,7 @@
 }
 
 .modal__text {
-  font-family:var(--accent-font),sans-serif;
+  font-family: var(--accent-font),sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;

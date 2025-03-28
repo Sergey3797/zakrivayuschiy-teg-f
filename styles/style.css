@@ -223,17 +223,17 @@
   overflow: hidden;
 }
 
-.card__like-button:focus-visible {
+.button:focus-visible {
   transition: 0.5s ease-in-out;
   box-shadow: 2px 2px 0 0 #000;
 }
 
-.card__like-button:focus {
+.button:focus {
   outline: none;
   box-shadow: 2px 2px 0 0 #000;
 }
 
-.card__like-button::after {
+.button::after {
   content: '';
   position: absolute;
   top: 0;
@@ -247,11 +247,11 @@
   z-index: 1;
 }
 
-.card__like-button:hover {
+.button:hover {
   cursor: pointer;
 }
 
-.card__like-button:hover::after {
+.button:hover::after {
   transform: translateX(0);
 }
 
@@ -286,44 +286,12 @@
   --content-width: clamp(19.125rem, 3.791vw + 18.237rem, 20.938rem);
 }
 
-.button-open:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 0 #000;
-}
-
-.button-open:focus-visible {
-  transition: 0.5s ease-in-out;
-  box-shadow: 2px 2px 0 0 #000;
-}
-
 .floppy {
   block-size: 28px;
   fill: currentColor;
   position: relative;
   z-index: 2; 
   mix-blend-mode: difference;
-}
-
-.button-open::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  transition: 0.5s ease-in-out;
-  transform: translateX(-100%);
-  color:var(--color-light);
-  z-index: 1;
-}
-
-.button-open:hover {
-  cursor: pointer;
-}
-
-.button-open:hover::after {
-  transform: translateX(0);
 }
 
 .modal__window[open] {
@@ -364,6 +332,8 @@
   align-self: center;
 }
 
+
+/* отдельный класс для закрывающей кнопки так как у нее размер отличается от других */
 .button-close {
   padding-block: 6.5px;
   color: #fff;
@@ -372,38 +342,6 @@
   position: relative;
   overflow: hidden;
   border: 2px solid #000000;
-}
-
-.button-close::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  transition: 0.5s ease-in-out;
-  transform: translateX(-100%);
-  color:var(--color-light);
-  z-index: 1;
-}
-
-.button-close:hover {
-  cursor: pointer;
-}
-
-.button-close:hover::after {
-  transform: translateX(0);
-}
-
-.button-close:focus {
-  outline: none;
-  box-shadow: 2px 2px 0 0 #000;
-}
-
-.button-close:focus-visible {
-  transition: 0.5s ease-in-out;
-  box-shadow: 2px 2px 0 0 #000;
 }
 
 .modal__window[open]::backdrop {
